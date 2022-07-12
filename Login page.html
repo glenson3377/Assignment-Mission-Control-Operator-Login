@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!---Hunter Roach-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <style>
+            body {background-color:aqua;}
+        </style>
+        <meta charset="utf-8"/>
+        <title>Login Page</title>
+        <script src="login.js"></script>
+    </head>
+    <Body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="text-align: center;">Login</h1>
+        <p style="text-align: center;">Please enter employee credentials below</p>
+        <p id='status' style="color: red;"></p>
+        <!--login data-->
+        <form id="logindata" style="text-align: center;" onsubmit="false">
+            First name: <input type="text" id="username"/><br>
+            Last name: <input type="text" id="password"/><br>
+            Badge number: <input type="number" id="badge"/><br>
+            <input type="submit" onclick="verify();"/>
+        </form>
+    </Body>
+</html>
